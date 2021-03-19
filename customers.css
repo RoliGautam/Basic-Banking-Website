@@ -1,0 +1,101 @@
+body{
+    
+     background-image:url("bodybg.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ 
+ #bodyhead{
+ height: fit-content;
+ width:100%px;
+ background-color:#2e0404;
+ font-style: italic;
+ padding: 5px;
+ color: white;
+ }
+ 
+ #menu
+ {
+ height:fit-content;
+ width:100%;
+
+ padding:2px;
+ background-color:rgb(77, 12, 12);
+ 
+ }
+ #menu ul
+ {
+ list-style-type:none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ }
+ #menu ul li
+ {
+ display:inline;
+ float: left;
+ padding:10px;
+ }
+ #menu ul li a
+ {
+     color:white;
+     text-decoration:none;
+     font-size:20px;
+     font-family:verdana;
+     display: block;
+     text-align: center;
+ }
+ 
+ #menu ul li:hover
+ {
+ background-color:red;
+ margin: 5px;
+ border-radius: 15px;
+ padding: 5px;
+ }
+ #menu ul li a:hover
+ {
+ color:black;
+ 
+ }
+
+.heading{
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(20, 19, 19);
+    text-shadow: 5px 5px 10px white;
+    font-style: italic;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.tab
+{
+    align-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.table{
+    background-color: turquoise;
+    
+}
+
+
+
+#foot{
+    color:white;
+    text-align:center;
+    margin-top: 100px;
+    }
+
+    #footer{
+    
+        background-color:#2e0404;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 0px;
+        height: fit-content;
+    }

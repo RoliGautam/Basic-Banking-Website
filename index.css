@@ -1,0 +1,180 @@
+body{
+   // background-color: rgb(179, 77, 77);
+    background-image:url("bodybg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bodyhead{
+height: fit-content;
+width:100%px;
+background-color:#2e0404;
+font-style: italic;
+padding: 5px;
+color: white;
+}
+
+#menu
+{
+height:fit-content;
+width:100%;
+//border:1px solid;
+padding:2px;
+background-color:rgb(77, 12, 12);
+
+}
+#menu ul
+{
+list-style-type:none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+#menu ul li
+{
+display:inline;
+float: left;
+padding:10px;
+}
+#menu ul li a
+{
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-family:verdana;
+    display: block;
+    text-align: center;
+}
+
+#menu ul li:hover
+{
+background-color:red;
+margin: 5px;
+border-radius: 15px;
+padding: 5px;
+}
+#menu ul li a:hover
+{
+color:black;
+
+}
+
+.welcome{
+text-align: center;
+font-style: italic;
+color:rgb(22, 11, 173);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 50px;
+font-size: 70px;
+
+}
+
+.logo{
+display: block;
+    width: 300px;
+    height: 300px;
+    border: 7px solid black;
+    background: crimson;
+    border-radius: 150px;
+    margin-left: 38%;
+    margin-top: 80px;
+   
+    padding: 37px;
+    align-content: center;
+    font-size: 40px;
+    text-align: center;
+    font-style: normal;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+
+.cont{
+
+    width: 100%;
+    height: 400px;
+    background-color: rgb(230, 164, 102);
+    margin-top: 100px;
+}
+
+
+.row{
+
+    width: 100%;
+    height: 400px; 
+    background-color: rgb(230, 164, 102);
+    margin-top: 100px;
+
+
+}
+.one{
+ height:350px;
+
+width:31%;
+align-items: center;
+align-content: center;
+margin: auto;
+float:left;
+}
+
+
+.btn{
+    height: 66px;
+    width: 286px;
+    text-align: center;
+    margin-top: 8px;
+    padding: 5PX;
+    float: left;
+    
+    border-radius: 15px;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    background-color: #842029;
+    
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+.btn{
+    height: 66px;
+    width: 286px;
+    text-align: center;
+    margin-top: 8px;
+    padding: 5PX;
+    float: left;
+    
+    border-radius: 15px;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    background-color: #842029;
+    
+    } 
+
+
+#foot{
+    color:white;
+    text-align:center;
+    margin-top: 200px;
+    }
+
+    #footer{
+    
+        background-color:#2e0404;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 0px;
+        height: fit-content;
+    }
